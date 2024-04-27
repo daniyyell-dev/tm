@@ -35,8 +35,8 @@
                 "text": "User"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -50,9 +50,23 @@
               "description": "Low Privileged user",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": true,
-              "threats": []
+              "threats": [
+                {
+                  "id": "72a99927-dbf2-4846-8406-7c6c88a8bb1d",
+                  "title": "Web Apps is vulnerable to spoofing attacks",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Security",
+                  "description": "Adversary can gt sensitive data from web client cache if the application does not set propper HTTP cache related response headers.",
+                  "mitigation": "- its recommended to configure proper HTTP response headers on the server side",
+                  "modelType": "PLOT4ai",
+                  "new": false,
+                  "number": 1,
+                  "score": "6.5"
+                }
+              ]
             }
           },
           {
@@ -622,6 +636,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Sam",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
