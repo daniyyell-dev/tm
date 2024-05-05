@@ -1,0 +1,31 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "tm-2",
+    "owner": "daniyyell",
+    "description": "A/S",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "sam"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "St",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": [],
+        "description": "Sm the rig"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "re",
+    "threatTop": 0
+  }
+}
